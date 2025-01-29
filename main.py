@@ -9,7 +9,7 @@ def main():
 
 def word_num(book):
     words = len(book.split())
-    print(f"{words} words in document")
+    print(f"{words} words")
 
 def sort_on(dict):
     return dict["num"]
